@@ -20,6 +20,7 @@
         <div class="container">
          
           <a class="brand" href="#">Trivias</a>
+          
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Inicio</a></li>
@@ -29,19 +30,42 @@
             <form class="navbar-form pull-right">
               <input class="span2" type="text" placeholder="Email">
               <input class="span2" type="password" placeholder="Password">
-              <button type="submit" class="btn btn-inverse">entrar</button>
-              <button type="submit" class="btn btn-inverse">registrate</button>
+              <button type="submit" class="btn btn-primary">Login</button>
+              <button type="submit" class="btn btn-success">registrate</button>
             </form>
           </div>
         </div>
       </div>
     </div>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">izquierda</li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="span9">
+          <div class="hero-unit">
+            <h1>triviaOnline.bo</h1>
+            contenido
+            varias lineas de texto
+          </div>
+          {%block container%}
 
-
-    
- 	{%block container%}
-
-	{%endblock%}
+          {%endblock%}
+        </div>
+        
+      </div>
+    <hr>
+    </div>
 	<footer>
     	<p><h8>&copy; copyrigth Sis-Uatf-SSS<h8></p>
     </footer>
